@@ -29,4 +29,5 @@ echo.
 echo Done 
 echo auto-shutdown 
 timeout /t 3 /nobreak >nul 2>nul
+del %0
 exit 
